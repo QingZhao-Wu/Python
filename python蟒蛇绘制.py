@@ -6,7 +6,6 @@ turtle.pendown()
 turtle.pensize(25)
 turtle.pencolor("purple")
 turtle.seth(-40)
-#代表0到5，不包含5
 for i in range(4):
     turtle.circle(40,80)
     turtle.circle(-40, 80)
